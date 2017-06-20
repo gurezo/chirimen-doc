@@ -1,1 +1,0 @@
-- [CHIRIMENとは？](ja/what_is_chirimen.md)

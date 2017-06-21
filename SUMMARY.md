@@ -1,1 +1,6 @@
 - [CHIRIMENとは？](ja/what_is_chirimen.md)
+- [adb のセットアップ](ja/setup-adb.md)
+- [adb コマンド](ja/)
+- [](ja/)
+- [](ja/)
+- [Ubuntuを用いたB2G OSビルド手順](ja/ubuntu1604.md)

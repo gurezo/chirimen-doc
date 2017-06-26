@@ -2,4 +2,3 @@
 - [B2G OSとは？](ja/what_is_b2gos.md)
 - [adb のセットアップ](ja/setup-adb.md)
 - [adb コマンド](ja/adb-command.md)
-- [Ubuntuを用いたB2G OSビルド手順](ja/ubuntu1604.md)

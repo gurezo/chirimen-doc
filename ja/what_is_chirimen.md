@@ -1,4 +1,4 @@
-#### CHIRIMENとは
+## CHIRIMENとは
 
 ```
 CHIRIMEN はセンサーやアクチュエーターなどの物理デバイスを

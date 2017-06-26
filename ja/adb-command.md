@@ -29,5 +29,25 @@ $ adb reboot
 $ adb shell
 ```
 
+### adb devices で、認識しない時の対応
+- USBメーブルがPCに接続されている事を確認します。
+- ボードが起動中かどうかをモニターを見て判断します。
+
+#### 上記以外で認識しない場合
+- `adb_usb.ini` 編集します。
+  - ディレクトリを作成・移動します。
+  ```
+  $ mkdir ~/.android
+  $ cd ~/.android
+  $ vi ~/.android/adb_usb.ini
+  ```
+  - 下記の内容を追記します。
+  ~~~~
+  # Echigo Rev.1
+  # 1 USB VENDOR ID PER LINE.
+  0x2207
+  ~~~~
+- 再度、 `adb devices` を実行します。
+
 ### 引用
 - [Android Debug Bridge](https://developer.android.com/studio/command-line/adb.html)

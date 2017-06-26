@@ -12,6 +12,8 @@
   ```
   $ brew install android-platform-tools
   ```
+- Windows 7 以降
+  - [ADBコマンド導入の方法](http://qiita.com/hikaru__m/items/15baae425b6fad25da05)
 
 ### 引用
 - [ADBをインストールして使用する](https://developer.mozilla.org/ja/docs/Archive/B2G_OS/Debugging/Installing_ADB)

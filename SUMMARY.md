@@ -1,4 +1,4 @@
-- [CHIRIMENとは？](ja/what_is_chirimen.md)
-- [B2G OSとは？](ja/what_is_b2gos.md)
-- [adb のセットアップ](ja/setup-adb.md)
-- [adb コマンド](ja/adb-command.md)
+- [CHIRIMENとは？](ja/01.what_is_chirimen.md)
+- [B2G OSとは？](ja/02.what_is_b2gos.md)
+- [adb のセットアップ](ja/03.setup-adb.md)
+- [adb コマンド](ja/04.adb-command.md)

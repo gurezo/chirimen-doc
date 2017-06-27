@@ -2,3 +2,4 @@
 - [B2G OSとは？](ja/02.what_is_b2gos.md)
 - [adb のセットアップ](ja/03.setup-adb.md)
 - [adb コマンド](ja/04.adb-command.md)
+- [Hello World の作り方](ja/05.Hello-World.md)

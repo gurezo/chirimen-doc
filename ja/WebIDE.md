@@ -1,8 +1,12 @@
 ## WebIDE の使い方
 ### WebIDE の出し方
-- メニューバー => ツール => ウェブ開発 => WebIDE
-![img/01.Menu-WebIDE.png](img/01.Menu-WebIDE.png)
-- WebIDE が表示されました。
+#### ● バーガーボタンをクリックします。
+![img/Buger-menu.png](img/Buger-menu.png)
+#### ● 開発ツールをクリックします。
+![img/devtools.png](img/devtools.png)
+#### ● WebIDEをクリックします。
+![img/WebIDE-Open.png](img/WebIDE-Open.png)
+#### ● WebIDE が表示されました。
 ![img/02.WebIDE.png](img/02.WebIDE.png)
 
 ### CHIRIMENの接続確認のやり方

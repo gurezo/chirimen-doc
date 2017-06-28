@@ -32,6 +32,10 @@
   - 物理的に破損している可能性があります。
   - OSイメージがボードに正しく焼かれていない可能性があります。
 
+### 正しく起動した場合
+- B2G OSが表示されます。<br>
+![img/CHIRIMEN-DeskTop.png](img/CHIRIMEN-DeskTop.png)
+
 ### 引用
 - [CHIRIMEN Hello world](http://qiita.com/kotakagi/items/3a4f7865ab784cd88cdd) より引用
 - [ボードコンピュータ　コネクタ配置](https://chirimen.org/docs/ja/board_connectors.html) より引用

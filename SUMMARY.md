@@ -3,5 +3,6 @@
 - [CHIRIMENの準備](ja/CHIRIMEN-StandBy.md)
 - [WebIDE の使い方](ja/WebIDE.md)
 - [Hello World の作り方](ja/Hello-World.md)
+- [デバッグのやり方](ja/How-To-Debug.md)
 - [adb コマンド](ja/adb-command.md)
 - [adb のセットアップ](ja/setup-adb.md)

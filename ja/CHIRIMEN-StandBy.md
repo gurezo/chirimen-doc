@@ -1,0 +1,37 @@
+## CHIRIMENの準備
+
+### 準備するもの
+- CHIRIMEN
+- USB-microUSBケーブル<br>※通常CHIRIMENに同梱されています。<br>CHIRIMEN-PCを接続するため、データ通信用(充電(のみ)用)ではダメです。
+- microHDMI-HDMIケーブル<br>※通常CHIRIMENに同梱されています。<br>CHIRIMEN-モニタを接続するため
+- CHIRIMEN用電源<br>※通常CHIRIMENには電源ケーブル(USB-DC)が同梱されていますが、<br>加えてUSB Aで5V 1A以上（2A以上推奨）を<br>給電可能な電源が別途必要となります。
+- HDMIディスプレイ
+- USBマウス
+
+### CHIRIMEN の構成（起動する前に読んで）
+- CHIRIMENのインターフェースは[こんな感じ](https://chirimen.org/docs/ja/board_connectors.html)です。<br>
+![img/About-CHIRIMEN.png](img/About-CHIRIMEN.png)
+
+### CHIRIMEN の接続
+- 下図②microHDMI端子にディスプレイを接続します。
+- 下図⑤Full USB端子にマウスを接続します。<br>図ではUSB HUBを用いていますが、直接さすことも可能です。
+- 上図micro USB(OTG)端子にPCを接続します。
+- 下図④CHIRIMEN用電源ケーブルを接続します。
+- CHIRIMEN上のLEDが点灯し、しばらく経つとB2Gが<br>起動する画面が現れます。
+  - [Echigo rev.1 New firmware CMN2015-1_B2GOS-20170301](https://youtu.be/igPrE2pR8dw)
+- アプリ画面が表示されたら、マウスを使用して操作をしてみましょう。<br>左クリックが選択、右クリックがホームボタンの役割となります
+![img/chirimen_basic_conf.jpg](img/chirimen_basic_conf.jpg)
+
+### 正しく起動しない場合
+- 絵の通り配線はきちんとされているでしょうか？
+- 電源ケーブルが抜けかかっている、HDMIケーブルがきちんとささっていないなどはないでしょうか？
+- 物理的に正しくつながっていないケースが多いのでもう一度見直してみてください。
+- 上記以外は、物理的にPCが認識しているかを確認する事が必要です。<br>
+  PCが正しく認識しているか確かめる方法は、[adb コマンド](04.adb-command.md) を用いて確認します。
+- [adb コマンド](04.adb-command.md) を用いても認識されない場合
+  - 物理的に破損している可能性があります。
+  - OSイメージがボードに正しく焼かれていない可能性があります。
+
+### 引用
+- [CHIRIMEN Hello world](http://qiita.com/kotakagi/items/3a4f7865ab784cd88cdd) より引用
+- [ボードコンピュータ　コネクタ配置](https://chirimen.org/docs/ja/board_connectors.html) より引用
